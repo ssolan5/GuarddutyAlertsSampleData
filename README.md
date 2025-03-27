@@ -1,22 +1,20 @@
-# GuarddutyAlertsSampleData
+# GuardDuty Alerts Sample Data
 
 This repository contains sample AWS GuardDuty alert data in JSON format for testing and demonstration purposes.
 
-Structure
+## Structure
 
-GuarddutyAlertsSampleData.json: Contains sample GuardDuty alert samples.
+- **`Guardduty Sample Alert Data.json`**: Contains sample GuardDuty alerts in JSON format.
+- **`README.md`**: Provides an overview of the dataset and its intended use.
 
-README.md: Overview of the dataset.
+## Usage
 
-Usage
-You can use this data for:
+This data can be used for:
 
-Testing data ingestion pipelines.
-Simulating security alerts in a development environment.
-Demonstrating analysis or reporting tools.
+- Testing data ingestion pipelines.
+- Simulating security alerts in a development or testing environment.
+- Demonstrating analysis or reporting tools.
 
-Disclaimer
+## Disclaimer
 
-This data is fictional and intended for educational or testing purposes only.
-
-
+This data is entirely fictional and intended for educational, testing, or demonstration purposes only.

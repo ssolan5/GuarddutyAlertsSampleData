@@ -1,12 +1,12 @@
 [
   {
     "AccountId": "123456789012",
-    "Arn": "arn:aws:guardduty:us-east-1:123456789012:detector/d2c74bdd0cc7a116e5235dfbbcfb096f/finding/007cc9dff12e499a8e8708541c328105",
+    "Arn": "arn:aws:guardduty:us-west-1:123456789012:detector/d2c74bdd0cc7a116e5235dfbbcfb096f/finding/007cc9dff12e499a8e8708541c328105",
     "CreatedAt": "2025-03-24T14:16:26.434Z",
     "Description": "APIs commonly used in reconnaissance attacks, was invoked from an IP address on the custom threat list. Unauthorized actors perform such activity to gather information and discover resources like databases, S3 buckets etc., in order to further tailor the attack.",
     "Id": "007cc9dff12e499a8e8708541c328105",
     "Partition": "aws",
-    "Region": "us-east-1",
+    "Region": "us-west-1",
     "Resource": {
       "AccessKeyDetails": {
         "AccessKeyId": "GeneratedFindingAccessKeyId",
@@ -368,12 +368,12 @@
   },
   {
     "AccountId": "123456789012",
-    "Arn": "arn:aws:guardduty:us-east-1:123456789012:detector/d2c74bdd0cc7a116e5235dfbbcfb096f/finding/00fb382b49514c37844a3b6be676b28c",
+    "Arn": "arn:aws:guardduty:us-west-1:123456789012:detector/d2c74bdd0cc7a116e5235dfbbcfb096f/finding/00fb382b49514c37844a3b6be676b28c",
     "CreatedAt": "2025-03-24T14:16:26.460Z",
     "Description": "Process GeneratedFindingProcessName in EKSCluster has executed the suspicious command GeneratedCommandLineExample.",
     "Id": "00fb382b49514c37844a3b6be676b28c",
     "Partition": "aws",
-    "Region": "us-east-1",
+    "Region": "us-west-1",
     "Resource": {
       "InstanceDetails": {
         "AvailabilityZone": "generated-az-1a",
@@ -638,7 +638,7 @@
       },
       "EksClusterDetails": {
         "Name": "GeneratedFindingEKSClusterName",
-        "Arn": "arn:aws:eks:us-east-1:123456789012:cluster/generated",
+        "Arn": "arn:aws:eks:us-west-1:123456789012:cluster/generated",
         "VpcId": "vpc-12345678",
         "Status": "ACTIVE",
         "Tags": [
